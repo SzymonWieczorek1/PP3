@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CinemaTicket
+comment1.params=
+comment1.target=void\ displayInfo()
+comment2.params=filmTitle\ row\ seat
+comment2.target=CinemaTicket(java.lang.String,\ int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
