@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=celsius\ fahr\ kelvin
+comment1.target=Library(float,\ float,\ float)
+comment2.params=
+comment2.target=void\ celsiusToKelvin()
+comment3.params=
+comment3.target=void\ celsiusToFahr()
+comment4.params=
+comment4.target=void\ fahrToCelsius()
+comment5.params=
+comment5.target=void\ fahrToKelvin()
+comment6.params=
+comment6.target=void\ kelvinToFahr()
+comment7.params=
+comment7.target=void\ kelvinToCelsius()
+comment8.params=
+comment8.target=void\ reset()
+comment9.params=
+comment9.target=void\ DisplayInfo()
+numComments=10
