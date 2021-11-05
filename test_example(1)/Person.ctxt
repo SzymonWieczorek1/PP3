@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Person
+comment1.params=name\ adult
+comment1.target=Person(java.lang.String,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=boolean\ getAdult()
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment5.params=adult
+comment5.target=void\ setAdult(boolean)
+numComments=6
