@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Rectangles
+comment1.params=sideA\ sideB
+comment1.target=Rectangles(int,\ int)
+comment2.params=
+comment2.target=void\ perim()
+comment3.params=
+comment3.target=void\ surf()
+comment4.params=
+comment4.target=void\ display()
+numComments=5
