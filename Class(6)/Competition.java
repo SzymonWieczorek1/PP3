@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class Competition{
     double[] score;
     double mean;
