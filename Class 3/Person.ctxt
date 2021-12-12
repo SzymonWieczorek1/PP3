@@ -9,5 +9,5 @@ comment3.target=void\ setWeightAndHeight(float,\ float)
 comment4.params=
 comment4.target=double\ calculateBMI()
 comment5.params=
-comment5.target=void\ displayInfo()
+comment5.target=void\ displayRecord()
 numComments=6

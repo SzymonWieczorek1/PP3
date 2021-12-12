@@ -6,9 +6,9 @@ public class StudentGrades{
     double[] grades;
     int numberOfGrades;
     
-    public StudentGrades(String name){
+    public StudentGrades(String name, int numberOfGrades){
         this.studentName = name;
-        this.numberOfGrades = (int) (Math.random() *(10-1)+1);
+        this.numberOfGrades = numberOfGrades;
         this.grades = new double[numberOfGrades];
         Scanner scan = new Scanner(System.in);
         System.out.println("Provide grades: ");
@@ -37,8 +37,8 @@ public class StudentGrades{
     }
     
     public static void main(String[] args){
-        StudentGrades student1 = new StudentGrades("Amanda");
-        StudentGrades student2 = new StudentGrades("James");
+        StudentGrades student1 = new StudentGrades("Amanda",6);
+        StudentGrades student2 = new StudentGrades("James",7);
         student1.displayInfo();
         student2.displayInfo();
         

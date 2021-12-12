@@ -33,8 +33,10 @@ public class CinemaTicket{
     }
     
     public static void main(String[] args) {
-        CinemaTicket ticket1 = new CinemaTicket("Gladiator",3,7);
+        CinemaTicket ticket1 = new CinemaTicket("Gladiator",2,7);
+        CinemaTicket ticket2 = new CinemaTicket("Gladiator",7,10);
         ticket1.displayInfo();
+        ticket2.displayInfo();
     }
 }
 

@@ -24,12 +24,19 @@ public class Person{
         return (weight/((height/100)*(height/100)));
     };
     
-    void displayInfo(){
+    void displayRecord(){
         System.out.println(name);
         System.out.println(weight);
         System.out.println(height);
-        System.out.println(calculateBMI());
-        
+        if(calculateBMI()<18.5){
+            System.out.println("BMI TOO LOW "+calculateBMI());
+        }
+        else if(calculateBMI()>24.9){
+            System.out.println("BMI TOO HIGH "+calculateBMI());
+        }
+        else{
+            System.out.println("BMI CORRECT "+calculateBMI());
+        }
     };
     
 }

@@ -37,6 +37,7 @@ public class Room {
         rooms[4]=new Room(76, 3);
         rooms[5]=new Room(6, 1);
         rooms[5].checkIn("James Bond");
+        rooms[4].checkIn("Szymon Wieczorek");
         rooms[5].displayStatus();
         for(int i=0; i<6; i++)
             rooms[i].displayStatus();
@@ -47,10 +48,10 @@ public class Room {
         int vacant=0;
         int occ=0;
         for(int i=0; i<6; i++) {
-            vacant=(rooms[i].isOccupied()==true ? vacant+1 : vacant);
-            occ=(rooms[i].isOccupied()==false ? occ+1 : occ);
+            vacant=(rooms[i].isOccupied()) ? vacant : vacant+1;
+            occ=(rooms[i].isOccupied()) ? occ+1 : occ;
         }
-        System.out.println("There are " + vacant + " vacant rooms and " + occ + "occupied rooms.");
+        System.out.println("There are " + vacant + " vacant rooms and " + occ + " occupied rooms.");
         
     }
 }
