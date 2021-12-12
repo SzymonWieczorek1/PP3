@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment1.params=ownerName\ ownerSurname\ value
+comment1.target=BankAccount(java.lang.String,\ java.lang.String,\ double)
+comment10.params=infloat
+comment10.target=void\ deposit(double)
+comment11.params=outfloat
+comment11.target=void\ withdraw(double)
+comment12.params=args
+comment12.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.lang.String\ getBankName()
+comment3.params=
+comment3.target=java.lang.String\ getOwnerName()
+comment4.params=
+comment4.target=java.lang.String\ getOwnerSurname()
+comment5.params=
+comment5.target=double\ getValue()
+comment6.params=newName
+comment6.target=void\ setOwnerName(java.lang.String)
+comment7.params=newSurname
+comment7.target=void\ setOwnerSurname(java.lang.String)
+comment8.params=newValue
+comment8.target=void\ setValue(double)
+comment9.params=
+comment9.target=void\ displayInfo()
+numComments=13

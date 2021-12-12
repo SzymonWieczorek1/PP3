@@ -11,7 +11,6 @@ public class Customer{
         this.money = money;
         this.age = age;
         this.productsBought = productsBought;
-        
     }
     
     public String getName(){

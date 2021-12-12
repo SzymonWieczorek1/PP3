@@ -1,6 +1,4 @@
-import java.util.Arrays;  
-import java.util.ArrayList;
-
+import java.util.*;
 public class ShoppingList{
     
     private ArrayList<String> shoppingList = new ArrayList<String>();
@@ -13,7 +11,10 @@ public class ShoppingList{
         System.out.println("Number of products: "+shoppingList.size());
     }
     
-    public void addProduct(String product){
+    public void addProduct(){
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Add product: ");
+        String product = myObj.nextLine();
         shoppingList.add(product);
     }
 }

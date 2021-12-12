@@ -1,5 +1,5 @@
 public class Car{
-    String company;
+    static String company = "Ford";
     String model;
     int horsePower;
     String color;

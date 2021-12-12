@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Computer
+comment1.params=model\ cpu\ onSale\ price
+comment1.target=Computer(java.lang.String,\ Processor,\ boolean,\ float)
+comment2.params=
+comment2.target=java.lang.String\ getProducer()
+comment3.params=
+comment3.target=java.lang.String\ getModel()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

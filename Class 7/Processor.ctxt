@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Processor
+comment1.params=name\ gen\ year\ cores\ timing
+comment1.target=Processor(java.lang.String,\ int,\ int,\ int,\ double)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getGen()
+comment4.params=
+comment4.target=int\ getCores()
+comment5.params=
+comment5.target=double\ getTiming()
+comment6.params=
+comment6.target=boolean\ getProduced()
+comment7.params=newCores
+comment7.target=void\ setCores(int)
+comment8.params=newTiming
+comment8.target=void\ setTiming(int)
+comment9.params=
+comment9.target=void\ changeProduced()
+numComments=11
