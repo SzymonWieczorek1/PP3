@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=File
+comment1.params=name\ ext\ size
+comment1.target=File(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getSize()
+comment4.params=
+comment4.target=java.lang.String\ getExt()
+comment5.params=newName
+comment5.target=void\ setName(java.lang.String)
+numComments=6
